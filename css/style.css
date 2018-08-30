@@ -210,19 +210,24 @@ span.menu {
 .banner{
 	background:url(../images/ruta74/iconos/bg1.jpg) no-repeat 0px -120px;
 	background-size:cover;
-	min-height:640px;
+	min-height:700px;
  }
 .banner-info{
 	text-align: center;
-    background: rgba(34, 34, 34, .6) !important;
+    background: rgba(34, 34, 34, .3) !important;
     padding: 3em 2em;
-    margin-top: 11em;
+    margin-top: 10em;
+
 }
 .banner-info h2{
-	font-size:2.3em;
+	font-size:2em;
 	color:#fff;
-	text-transform:uppercase;
+  font-family: 'Roboto', sans-serif;
+	/*text-transform:uppercase;*/
 	
+}
+.white {
+  color: white;
 }
 .banner-info h3{
 	font-size:1em;
@@ -733,6 +738,7 @@ input , textarea{
     .banner-info {
         padding: 2em 2em;
         margin-top:9em;
+
     }
     .welcm-left h4 {
         font-size: 1.2em;
