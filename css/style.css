@@ -1472,7 +1472,7 @@ h3.margen{
 
 @media screen and (max-width:767px){
     .seccionTransformaciones .gallery .item{
-        
+        margin: 0; 
     }
 }
 
