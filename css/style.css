@@ -55,6 +55,10 @@ p.margen-servicios {
   color: white;
 }
 
+p.margen-servicios:hover {
+color: #FFC201;
+}
+
 .margen-titulos {
    margin: 70px 0;
  
@@ -201,6 +205,9 @@ span.menu {
     .logo img[src="images/ruta74/iconos/logo-ruta74.png"]{
         width: 60%;
     }
+    .item {
+    margin: 10px 0;
+}
 }
 /*--banner--*/
 .banner{
@@ -624,6 +631,10 @@ input , textarea{
 }
 
 @media screen and (max-width:767px){
+
+  .item {
+    margin: 10px 0;
+}
     .contact .contacto-info .row img{
         display: block;
         margin: auto;
@@ -638,6 +649,9 @@ input , textarea{
     }
     p.contacto {
   margin-top: 15px;
+}
+p.contacto:hover {
+  color: #FFC201;
 }
 }
 
@@ -1500,10 +1514,8 @@ h3.margen{
 }
 
 @media screen and (max-width:767px){
-    .seccionTransformaciones .gallery .item{
-        margin: 0; 
-    }
-}
+    
+
 
 .seccionTransformaciones div.VerMas{
     position: relative;
