@@ -13,12 +13,7 @@ body a{
   -o-transition:0.5s all;
   -ms-transition:0.5s all;
 }
-/*h5, h6,
-h1, h2, h3 {
-    margin-top: 70px;
-    margin-bottom: 70px;
-    font-family: 'Palanquin Dark', sans-serif;    
-}*/
+
 
 .banner-nosotros h3{
     font-size: 3em;
@@ -68,6 +63,7 @@ h3.titulos {
   font-family: 'Palanquin Dark', sans-serif;
   color: white;
   text-align: center;
+  font-size: 3em;
 
 }
 h4.subtitulo {
@@ -238,7 +234,7 @@ span.menu {
 .banner-info a{
 	font-size:1em;
 	color:black;
-	margin-top:3em;
+	margin-top:2em;
 	padding:0.5em 3em;
 	background:#F3AE0B;
 	display:inline-block;
@@ -640,6 +636,9 @@ input , textarea{
     .contact .contacto-info .row{
         margin-bottom: 50px;
     }
+    p.contacto {
+  margin-top: 15px;
+}
 }
 
 .contact .contacto-info .row p{
@@ -736,8 +735,8 @@ input , textarea{
         font-size: 2em;
     }
     .banner-info {
-        padding: 2em 2em;
-        margin-top:9em;
+        padding: 2em 5em;
+        margin-top:7em;
 
     }
     .welcm-left h4 {
@@ -912,12 +911,12 @@ input , textarea{
     }
     .banner-info a {
         font-size: 0.9em;
-        margin-top: 2em;
-        padding: 0.4em 2em;
+        margin-top: 1em;
+       
     }
     .banner-info {
         padding: 2em;
-        margin-top: 6em;
+        margin-top: 5em;
     }
     .details ul li:nth-child(1){
         margin-right: 2em;
@@ -1041,8 +1040,8 @@ input , textarea{
         min-height: 316px;
     }
     .banner-info {
-        padding: 2em;
-        margin-top: 3em;
+        padding: 25px;
+        margin-top: 1em;
     }
     .welcm-left h3 {
         font-size: 1.7em;
@@ -1124,8 +1123,20 @@ input , textarea{
     .contact-icons {
         padding:2em 0;
     }
+
+    .titulo-transformaciones {
+   font-size: 2em;
+   
+}
 }
 @media(max-width:320px){
+
+  .titulo-transformaciones {
+   font-size: 2em;
+    font-family: 'Palanquin Dark', sans-serif;
+   color: white;
+  text-align: center;
+}
     .details ul li {
         padding: 0.3em 0em 0.3em 0.5em;
     }
@@ -1148,7 +1159,7 @@ input , textarea{
     }
     .banner-info {
         padding: 1em;
-        margin-top: 3em;
+        margin-top: 9cm;
     }
     .banner-info h2 {
         font-size: 1em;
@@ -1158,8 +1169,8 @@ input , textarea{
     }
     .banner-info a {
         font-size: 0.8em;
-        margin-top: 2em;
-        padding: 0.3em 2em;
+        margin-top: 1em;
+       
     }
     .banner {
         min-height: 240px;
@@ -1294,15 +1305,33 @@ input , textarea{
         font-size: 20px;
         margin-bottom: 70px;
     }
+
 }
 @media screen and (max-width:480px){
-    .banner-nosotros .banner-text p{
-        font-size: 13px;
-    }
+    
 
-    .banner-nosotros .banner-text h3{
-        font-size: 2.5em;
-    }
+  h3.titulo-transformaciones {
+    font-size: 2em;
+    font-family: 'Palanquin Dark', sans-serif;
+    color: white;
+    text-align: center;
+}
+.cl-servicios h3, .productos-info h3, .team h3, .contact h3, .productos h3, .galeria h3{
+  font-size: 2em;
+    color:#fff;
+  text-align:center;
+}
+
+  h3.titulos {
+  font-family: 'Palanquin Dark', sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 2em;
+
+}
+p.contacto {
+  margin-top: 15px;
+}
 }
 
 /*productos*/
@@ -1444,7 +1473,7 @@ h3.margen{
 .titulo-transformaciones {
    font-size: 3em;
     font-family: 'Palanquin Dark', sans-serif;
-  color: white;
+   color: white;
   text-align: center;
 }
 
