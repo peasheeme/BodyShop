@@ -210,7 +210,7 @@ span.menu {
 .banner{
 	background:url(../images/ruta74/iconos/bg1.jpg) no-repeat 0px -120px;
 	background-size:cover;
-	min-height:700px;
+	min-height:650px;
  }
 .banner-info{
 	text-align: center;
@@ -233,7 +233,7 @@ span.menu {
 	font-size:1em;
 	color:#fff;
 	margin-top:25px;
-	text-transform:uppercase;
+	
 }
 .banner-info a{
 	font-size:1em;
@@ -1416,7 +1416,9 @@ h3.margen{
   margin: 10px 0;
 }
 
-
+.galeria-transformaciones {
+  margin-bottom: 70px;
+}
 
 .galeria div.VerMas{
     position: relative;
@@ -1446,9 +1448,7 @@ h3.margen{
   text-align: center;
 }
 
-.seccionTransformaciones{
-    margin-bottom: 70px;
-}
+
 
 .seccionTransformaciones h4{
     font-size: 18px;
@@ -1472,7 +1472,7 @@ h3.margen{
 
 @media screen and (max-width:767px){
     .seccionTransformaciones .gallery .item{
-        margin:20px;
+        
     }
 }
 
