@@ -447,7 +447,7 @@
 			</div>
 			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
 				<form action="mail/formulario.php" method="POST" id="formulario">
-					<input name="nombre" id="nombre" type="text" placeholder="Nombre" minlength="2" maxlength="85" required>
+					<input type="text" name="name" placeholder="Nombre *" class="cajas" maxlength="85" required  required onkeypress="return soloLetras62031(event);" title="No se permiten números en este campo">
 					<input name="correo" id="email" type="email" placeholder="Correo electrónico" minlength="8" maxlength="75" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" title="Formato: ejemplo@hotmail/gmail/yahoo.com" required>
 					<textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Escribe tu mensaje" minlength="5" maxlength="500" required></textarea>
 					<input type="submit" value="Enviar" name="enviar">
@@ -719,6 +719,24 @@
 				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
 			});
 		});
+	</script>
+
+	<script>
+		function soloLetras62031(e) {
+		key = e.keyCode || e.which;
+		tecla = String.fromCharCode(key).toLowerCase();
+		letras = " áéíóúabcdefghijklmnñopqrstuvwxyz";
+		especiales = [8, 37, 39, 46];
+		tecla_especial = false
+		for (var i in especiales) {
+			if (key == especiales[i]) {
+				tecla_especial = true;
+				break;
+				}
+			}
+		if (letras.indexOf(tecla) == -1 && !tecla_especial)
+			return false;
+			}
 	</script>
 <!---->
 <!--script-
